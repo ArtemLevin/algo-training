@@ -11,5 +11,5 @@ def gcd_for_several_nums(num_list):
         result = gcd(result, item)
     return result
 
-print(gcd(num_list))
+print(gcd_for_several_nums(num_list))
 
